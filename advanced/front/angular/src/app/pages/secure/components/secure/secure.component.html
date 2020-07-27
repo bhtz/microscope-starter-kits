@@ -1,0 +1,27 @@
+<div *ngIf="user">
+
+
+  <h1>Secure</h1>
+  
+  <!-- <p>{{user | json}}</p> -->
+  <br><br>
+
+  <h4>ID TOKEN</h4>
+  <textarea name="" id="" cols="30" rows="10">
+    {{user.id_token}}
+  </textarea>
+
+  <h4>ACCESS TOKEN</h4>
+  <textarea name="" id="" cols="30" rows="10">
+    {{user.access_token}}
+  </textarea>
+  <br><br>
+
+  <button (click)="onclick()">GET DATA</button>
+  <span>{{data | json}}</span>
+  <br><br>
+
+  <button (click)="getHasuraData()">GET GRAPH DATA</button>
+  <span>{{graphData | json}}</span>
+
+</div>

@@ -6,7 +6,7 @@ export const environment = {
   production: false,
   authority: 'http://localhost:5000',
   clientId: 'PWA',
-  redirectUri: 'http://localhost:4200',
+  redirectUri: 'http://localhost:4200/callback',
   responseType: 'code',
   scope: 'openid profile email role mcsp.api',
   loadUserInfo: true,
