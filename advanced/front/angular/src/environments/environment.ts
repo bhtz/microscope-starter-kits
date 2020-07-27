@@ -4,11 +4,11 @@
 
 export const environment = {
   production: false,
-  authority: 'https://localhost:5001',
-  clientId: 'AngularClient',
+  authority: 'http://localhost:5000',
+  clientId: 'PWA',
   redirectUri: 'http://localhost:4200',
   responseType: 'code',
-  scope: 'openid profile email role ironhasura.api',
+  scope: 'openid profile email role mcsp.api',
   loadUserInfo: true,
   filterProtocolClaims: true
 };
