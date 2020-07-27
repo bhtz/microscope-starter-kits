@@ -38,8 +38,8 @@ services:
         source: ./config/appsettings.Development.json
         target: /app/appsettings.Development.json
       - type: bind
-      source: ./config/appsettings.Staging.json
-      target: /app/appsettings.Staging.json
+        source: ./config/appsettings.Staging.json
+        target: /app/appsettings.Staging.json
       - type: bind
         source: ./config/appsettings.Production.json
         target: /app/appsettings.Production.json
